@@ -2,6 +2,9 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
+console.log(process.env.NEXT_PUBLIC_TEST_ENV)
+console.log(process.env.DIRECT_ENV)
+
 export default function Home() {
   return (
     <div className={styles.container}>
