@@ -4,6 +4,7 @@ import styles from '../styles/Home.module.css'
 
 console.log(process.env.NEXT_PUBLIC_TEST_ENV)
 console.log(process.env.DIRECT_ENV)
+console.log('env vars')
 
 export default function Home() {
   return (
